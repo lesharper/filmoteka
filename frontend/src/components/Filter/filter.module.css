@@ -1,0 +1,10 @@
+.form {
+    @apply
+    flex flex-col justify-center w-full bg-zinc-100 shadow-md rounded-md p-5
+}
+
+.title {
+    @apply
+    flex p-2 text-xl font-bold uppercase
+}
+

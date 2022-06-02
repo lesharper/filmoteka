@@ -1,0 +1,41 @@
+.profile {
+    @apply
+    flex flex-col justify-start items-center w-[300px] mb-5
+}
+
+.control_container {
+    @apply
+    flex justify-evenly items-center h-[100px] w-full bg-violet-800 duration-100
+    hover:bg-violet-900
+    hover:duration-100
+
+}
+
+.avatar {
+    @apply
+    flex text-xl text-white justify-center items-center bg-violet-800 h-[75px] w-[75px] rounded-full shadow-md
+}
+
+.icon {
+    @apply
+    h-10 cursor-pointer
+}
+
+.menu {
+    @apply
+    list-none w-full
+}
+
+.menu > li {
+    @apply
+    p-5 text-xl cursor-pointer text-white bg-violet-800 duration-100
+    hover:bg-violet-900
+    hover:duration-100
+}
+
+.menu > li > a {
+    @apply
+    flex
+}
+
+

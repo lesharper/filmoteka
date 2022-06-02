@@ -1,0 +1,19 @@
+.container {
+    @apply
+    flex flex-col h-48 w-full bg-violet-900 text-white
+}
+
+.promo {
+    @apply
+    flex flex-col justify-center items-center h-2/3
+}
+
+.title {
+    @apply
+    text-4xl font-bold tracking-wide p-2
+}
+
+.detail {
+   @apply
+   tracking-widest text-zinc-400
+}

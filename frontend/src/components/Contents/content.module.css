@@ -1,0 +1,35 @@
+.list {
+    @apply
+    h-full w-full
+}
+
+.poster {
+    @apply
+    h-full w-[200px] object-cover
+}
+
+.item {
+    @apply
+    flex h-[250px] w-full bg-zinc-200 mb-2 cursor-pointer rounded-md shadow-md
+    hover:bg-zinc-300
+}
+
+.info {
+    @apply
+    w-full
+}
+
+.info > header{
+    @apply
+    flex px-5 justify-between items-center h-1/4 w-full bg-violet-800 text-white text-xl rounded-tr-md
+}
+
+.info > main{
+    @apply
+    flex p-5 h-2/4 w-full break-all
+}
+
+.info > footer{
+    @apply
+    flex px-5 justify-between items-center h-1/4 w-full bg-zinc-500 text-white rounded-br-md
+}

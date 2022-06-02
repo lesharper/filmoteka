@@ -1,0 +1,21 @@
+.links {
+    @apply
+    flex h-1/2 justify-center list-none
+}
+
+.links>ol {
+    @apply
+    flex text-[17px] justify-evenly items-center h-full w-[800px]
+}
+
+.link {
+    @apply
+    flex relative justify-center items-center cursor-pointer  border-b-2 border-transparent duration-75
+}
+
+.active {
+    @apply
+    absolute w-[calc(100%-10px)] h-[2px] bottom-[-5px] left-[5px] bg-purple-500
+
+}
+

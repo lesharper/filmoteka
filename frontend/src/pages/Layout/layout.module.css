@@ -1,0 +1,14 @@
+.page {
+    @apply
+    flex w-full justify-center
+}
+
+.container {
+    @apply
+    flex w-[1200px] justify-evenly
+}
+
+.outlet {
+    @apply
+    flex flex-col justify-center items-center w-[800px]
+}

@@ -1,0 +1,9 @@
+.sidebar {
+    @apply
+    flex flex-col sticky top-10 w-[300px] h-fit m-5
+}
+
+.search_container {
+    @apply
+    flex justify-center items-center bg-zinc-100 shadow-md rounded-md mb-5
+}

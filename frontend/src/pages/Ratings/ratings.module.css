@@ -1,0 +1,24 @@
+.page {
+    @apply
+    min-h-screen mt-5 w-full bg-zinc-100
+}
+
+.table {
+    @apply
+    bg-violet-800 w-full text-white
+}
+
+.header {
+    @apply
+    bg-violet-900 h-20 text-xl
+}
+
+.body {
+    @apply
+    text-center
+}
+
+.body > tr > td{
+    @apply
+    h-[150px] w-[300px] border-b-2
+}

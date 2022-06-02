@@ -1,0 +1,25 @@
+.contents {
+    @apply
+    w-full
+}
+
+.items {
+    @apply
+    flex flex-col justify-evenly
+}
+
+.items > span{
+    @apply
+    flex justify-center p-5 bg-violet-800 shadow-md text-2xl text-white mb-2
+}
+
+.items > div{
+    @apply
+    flex justify-evenly p-5 mb-5
+}
+
+.item {
+    @apply
+    h-[250px] w-[200px] rounded-md shadow-md cursor-pointer duration-100 object-cover
+    hover:scale-105
+}

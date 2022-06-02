@@ -1,0 +1,61 @@
+.list {
+    @apply
+     w-full
+}
+
+.item {
+    @apply
+    flex h-fit w-full bg-zinc-200 mb-2 rounded-md shadow-md
+}
+
+.new {
+    @apply
+    w-full
+}
+
+.new > header{
+    @apply
+    flex px-5 h-11 justify-between items-center bg-violet-800 w-full text-white text-xl rounded-t-md
+}
+
+.new > main{
+    @apply
+    flex p-7 w-full break-all
+}
+
+.new > footer{
+    @apply
+    flex px-5 h-11 justify-between  items-center bg-violet-800 w-full text-white text-xl rounded-b-md
+}
+
+.icon {
+    @apply
+    h-7 text-black cursor-pointer
+    hover:text-red-800
+}
+
+.delete_hint {
+    @apply
+    w-[400px] h-[400px] bg-zinc-300
+}
+
+.delete_hint > header{
+    @apply
+    flex h-1/5 justify-center items-center bg-violet-900 text-white text-xl
+}
+
+.delete_hint  > main{
+    @apply
+    h-3/5 p-10 text-xl
+}
+
+.delete_hint > footer {
+    @apply
+    flex h-1/5 bg-violet-900 items-center justify-around
+}
+
+.delete_hint  button {
+    @apply
+    h-[50px] w-[150px] rounded-md text-xl bg-violet-800 text-white shadow-md duration-100 my-1
+    hover:bg-violet-700
+}

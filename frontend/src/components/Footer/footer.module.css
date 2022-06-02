@@ -1,0 +1,24 @@
+.container {
+    @apply
+    flex flex-col justify-center items-center h-40 bg-violet-900 text-zinc-300 text-[17px]
+}
+
+.links {
+    @apply
+    flex h-1/2 w-1/2 items-center
+}
+
+.links>ol {
+    @apply
+    flex h-1/2 w-full justify-evenly items-center
+}
+
+.link {
+    @apply
+    cursor-pointer
+}
+
+.detail {
+    @apply
+    flex h-1/2 justify-center items-center
+}

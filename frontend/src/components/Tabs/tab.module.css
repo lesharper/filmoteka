@@ -1,0 +1,16 @@
+.tabs {
+    @apply
+    flex justify-center items-center h-[100px] bg-amber-400 text-white text-xl
+}
+
+
+.tabs_item {
+    @apply
+    flex justify-center items-center h-full w-[170px] bg-violet-800 cursor-pointer
+    hover:bg-violet-900
+}
+
+.tabs_item_active {
+    @apply
+    flex justify-center items-center w-[170px]  h-full p-6 bg-indigo-900
+}

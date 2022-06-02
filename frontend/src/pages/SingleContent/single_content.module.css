@@ -1,0 +1,86 @@
+
+.page {
+    @apply
+    w-full mt-5 bg-zinc-200
+}
+
+.page > header {
+    @apply
+     flex items-center justify-between p-5 h-16 w-full bg-violet-800 text-white text-2xl
+}
+
+.info {
+    @apply
+    flex justify-evenly p-5 w-full text-white text-2xl text-black
+}
+
+.trailer {
+    @apply
+    flex justify-center items-center h-[430px] w-full border-2 text-xl
+}
+
+.info_item {
+    @apply
+    h-12 text-xl p-2
+}
+
+.info > div {
+    @apply
+    flex flex-col
+}
+
+.title {
+    @apply
+    flex justify-center text-xl font-bold mb-5
+}
+.description {
+    @apply
+    min-h-[200px] w-[400px] text-xl p-2 break-words
+}
+
+.poster {
+    @apply
+    flex w-full h-[300px] w-[250px] justify-center items-center text-xl cursor-pointer object-cover
+}
+
+.hint {
+    @apply
+    flex justify-center items-center h-[100px] bg-salad text-black
+}
+
+.icon_favorite {
+    @apply
+    h-7 cursor-pointer
+}
+
+.icon_delete {
+    @apply
+    h-7 cursor-pointer text-black
+    hover:text-red-800
+}
+
+.delete_hint {
+    @apply
+    w-[400px] h-[400px] bg-zinc-300
+}
+
+.delete_hint > header{
+    @apply
+    flex h-1/5 justify-center items-center bg-violet-900 text-white text-xl
+}
+
+.delete_hint  > main{
+    @apply
+    h-3/5 p-10 text-xl
+}
+
+.delete_hint > footer {
+    @apply
+    flex h-1/5 bg-violet-900 items-center justify-around
+}
+
+.delete_hint  button {
+    @apply
+    h-[50px] w-[150px] rounded-md text-xl bg-violet-800 text-white shadow-md duration-100 my-1
+    hover:bg-violet-700
+}

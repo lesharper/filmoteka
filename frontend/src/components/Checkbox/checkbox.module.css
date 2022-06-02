@@ -1,0 +1,60 @@
+.filter {
+    @apply
+    flex items-center w-full text-xl
+}
+
+.category {
+    @apply
+    uppercase font-bold
+}
+
+.filter > div {
+    @apply
+    flex justify-start items-center h-6 w-12 border-2 border-violet-800 cursor-pointer m-2 rounded-full p-0.5
+}
+
+.filter > div > div {
+    @apply
+    h-4 w-4 bg-violet-800 rounded-full
+}
+
+.filter > input[type="checkbox"]:checked + div  {
+    @apply
+    flex justify-end bg-violet-800
+}
+
+.filter > input[type="checkbox"]:checked + div > div  {
+    @apply
+    bg-white
+}
+
+.icon {
+    @apply
+    mx-2 h-5 cursor-pointer hover:text-red-800
+}
+
+.delete_hint {
+    @apply
+    w-[550px] h-[400px] bg-zinc-300
+}
+
+.delete_hint > header{
+    @apply
+    flex h-1/5 justify-center items-center bg-violet-900 text-white text-xl
+}
+
+.delete_hint  > main{
+    @apply
+    h-3/5 p-10 text-xl
+}
+
+.delete_hint > footer {
+    @apply
+    flex h-1/5 bg-violet-900 items-center justify-around
+}
+
+.delete_hint  button {
+    @apply
+    h-[50px] w-[150px] rounded-md text-xl bg-violet-800 text-white shadow-md duration-100 my-1
+    hover:bg-violet-700
+}
